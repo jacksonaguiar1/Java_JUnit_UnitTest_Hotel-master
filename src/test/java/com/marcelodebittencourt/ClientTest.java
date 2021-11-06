@@ -15,7 +15,7 @@ public class ClientTest {
         Client client = new Client(1, "Fulano");
         //validação do resultado
         assertEquals(1, client.getId());
-        assertEquals("G", client.getName());
+        assertEquals("Fulano", client.getName());
     }
 
 }
